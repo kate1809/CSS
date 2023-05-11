@@ -1,0 +1,45 @@
+EXP 10
+
+1. Do the settings in firefox and burpsuite
+(open burpsuite  then new project then proxy settings then set port to 8081, then open firefox and add the same port in proxy settings in network settings)
+2. go to login page and type wrong credentials
+3. go to burpsuite and switch onn intercept
+4. go to login page and then press login
+5. go to burpsuite (your request was captured) right click on the screen and select send to intruder
+6. Go to Intruder tab in burpsuite, clear all $ then select the usename and the password column and add dollar $ finally in attack type select cluster bombs
+7. Go to payloads (sub-tab in intruder tab) and set payloads 1 and 2 (enter random values but one of the values should be test in both the payloads)
+8. Start Attack
+9. Select the result with largest result (test-test ke liye hoga)
+10. Then Response Sub Tab mein jaana and waha par youu can see the responses 
+11. This shows that this is the correct username and password
+12. site pe jaana and ye jo username and password mila hai burpsuite se woh type kardena
+13. Site hecked
+
+Steps
+
+DOS ATTACK - hping3 -1 --flood --rand-source -c 10000 192.168.68.107
+
+EXP 13
+
+1. Wireshark open
+2. go to testfire.net
+3. start capturing in ethernet 
+4. go to crome and open http website
+5. Stop capture
+6. find green line which is first [SYN]
+7. ping the website in commandprompt
+8. url to ip converter 24/7
+9. get ip address
+10. check for syn ack and ack from your device
+
+EXP 12
+
+1. start capture ethernet
+2. start capture
+3. login on website
+4. stop capture
+5. find POST method
+6. right click follow tcp stream 
+7. check for user id and password
+8. go to any udp stream do follow stream 
+9. all will be encrypted\
